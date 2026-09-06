@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Hinglish Engineering Quiz</title><link rel="stylesheet" href="/static/style.css"></head>
+<body>
+<div class="scenes" aria-hidden="true">
+  <svg class="scene train-scene" viewBox="0 0 1440 900" fill="none">
+    <path d="M0 710H1440M0 750H1440" class="track"/><path d="M100 710v70m90-70v70m90-70v70m90-70v70m90-70v70m90-70v70m90-70v70m90-70v70m90-70v70m90-70v70m90-70v70m90-70v70m90-70v70m90-70v70m90-70v70m90-70v70" class="track"/>
+    <path d="M95 640h450v-125H175a80 80 0 0 0-80 80z" class="shape"/><path d="M175 515h90v125h-90zm115 0h90v125h-90zm115 0h90v125h-90z" class="window"/><circle cx="210" cy="650" r="33" class="wheel"/><circle cx="475" cy="650" r="33" class="wheel"/>
+    <rect x="940" y="400" width="205" height="130" rx="9" class="box"/><text x="1042" y="478" text-anchor="middle" class="msc">MSC</text><path d="M1042 530v180M950 650l92-120 93 120M965 592l77-62 77 62" class="line"/>
+    <path d="M720 710V390m-72 320 72-220 72 220m-120-145 48-90 48 90M720 390l-95 320m95-320 95 320M1160 710V270m-74 440 74-250 74 250m-125-170 51-102 51 102M1160 270l-95 440m95-440 95 440" class="tower"/>
+    <path d="M720 445c55-105 155-105 210 0M1160 350c65-120 180-120 245 0M720 500c48-85 130-85 178 0" class="signal"/>
+  </svg>
+  <svg class="scene cloud-scene" viewBox="0 0 1440 900" fill="none">
+    <path d="M430 450c0-72 59-130 131-130 30 0 58 10 80 27 29-57 88-97 157-97 98 0 178 80 178 178 68 1 123 56 123 124 0 69-56 125-125 125H552c-67 0-122-54-122-121 0-43 23-81 57-102" class="cloud"/>
+    <rect x="285" y="590" width="210" height="122" rx="14" class="layer"/><rect x="615" y="590" width="210" height="122" rx="14" class="layer"/><rect x="945" y="590" width="210" height="122" rx="14" class="layer"/>
+    <path d="M390 590v-80m330 80v-118m330 118v-80M495 650h120m210 0h120" class="line"/><circle cx="390" cy="650" r="26" class="orb"/><circle cx="720" cy="650" r="26" class="orb"/><circle cx="1050" cy="650" r="26" class="orb"/>
+    <path d="M555 740h330m-275 45h220" class="ground"/>
+  </svg>
+  <svg class="scene kernel-scene" viewBox="0 0 1440 900" fill="none">
+    <rect x="365" y="185" width="710" height="530" rx="35" class="screen"/><rect x="415" y="235" width="610" height="330" rx="14" class="screen-inner"/>
+    <circle cx="490" cy="400" r="82" class="chip"/><path d="M490 292v-48m0 312v48m-108-204h-48m312 0h-48m-185-77-34-34m222 222-34-34m0-154 34-34m-222 222 34-34" class="pins"/>
+    <path d="M490 350c27 0 50 22 50 50s-23 50-50 50-50-22-50-50 23-50 50-50zm0 22v56m-28-28h56" class="line"/>
+    <path d="M640 310h300m-300 62h235m-235 62h300m-300 62h180" class="code"/><path d="M470 660h500" class="ground"/>
+    <path d="M365 715l-70 70h850l-70-70" class="laptop"/>
+  </svg>
+</div>
+<main><p class="eyebrow">ENGINEERING SHOWCASE</p><h1>Quizania</h1><p class="intro">It’s Hinglish quiz time, covering cloud, AI, Linux, and telecom concepts through practical engineering situations.</p><div id="quizTimer" class="timer" hidden></div><section id="quiz" class="card"><div class="loading">Generating your engineering quiz…</div></section></main><script src="/static/timer.js"></script><script src="/static/app.js"></script></body></html>
