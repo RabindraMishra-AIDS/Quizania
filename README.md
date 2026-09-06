@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/f079b8d3-96fd-4824-aa90-e5cb513b5fbb
+
 # Quizania
 
 AI-powered quiz app built with FastAPI.
